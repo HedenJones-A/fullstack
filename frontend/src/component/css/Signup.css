@@ -1,0 +1,73 @@
+
+
+/* Center the .signin_container using flexbox */
+.signup_container {
+    height: 64vh;
+    width: 60vh;
+    margin-left: 35%;
+    /* margin-right: 40%; */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+ /* Optional: Change to your preferred background color */
+    padding:25px;
+    border-radius: 10px; /* Optional: Change to your preferred border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Change to your preferred box shadow */
+    min-height: 50vh; /* Adjust the min-height as needed */
+}
+
+/* Style the heading */
+.signup_container h1 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Optional: Change to your preferred font size */
+    color:black /* Optional: Change to your preferred color */
+}
+.signup_button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px; /* Optional: Change to your preferred font size */
+    background-color:cadetblue; /* Optional: Change to your preferred background color */
+    color:black; /* Optional: Change to your preferred text color */
+    border: none; /* Optional: Change to your preferred border style */
+    border-radius: 35px; /* Optional: Change to your preferred border radius */
+    cursor: pointer; /* Optional: Change to your preferred cursor style */
+    text-transform: none; /* Prevent button text from being capitalized */
+}
+
+/* Style the form */
+.signup_container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust the width as needed */
+}
+
+/* Style the input fields */
+.signup_container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px; /* Optional: Change to your preferred font size */
+    border: 1px solid #ccc; /* Optional: Change to your preferred border color */
+    border-radius: 5px; /* Optional: Change to your preferred border radius */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .signup_container {
+        width: 90%; /* Adjust the width as needed */
+    }
+
+    .signup_container h1 {
+        font-size: 20px; /* Optional: Adjust font size for smaller screens */
+    }
+
+    .signup_container input {
+        font-size: 14px; /* Optional: Adjust font size for smaller screens */
+    }
+    .signup_button {
+        font-size: 14px; /* Optional: Adjust font size for smaller screens */
+    }
+}

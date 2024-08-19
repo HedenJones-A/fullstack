@@ -1,0 +1,99 @@
+
+
+/* Center the .signin_container using flexbox */
+.signin_container {
+    height: 64vh;
+    width: 60vh;
+    margin-left: 35%;
+    /* margin-right: 40%; */
+    margin-top: 5%;
+    /* min-height: 25px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    
+
+ /* Optional: Change to your preferred background color */
+    padding:25px;
+
+    border-radius: 10px; /* Optional: Change to your preferred border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Change to your preferred box shadow */
+    min-height: 50vh; /* Adjust the min-height as needed */
+}
+
+/* Style the heading */
+.signin_container h1 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Optional: Change to your preferred font size */
+    color:black /* Optional: Change to your preferred color */
+}
+
+/* Style the form */
+.signin_container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust the width as needed */
+}
+.signup_button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px; /* Optional: Change to your preferred font size */
+    background-color:darksalmon; /* Optional: Change to your preferred background color */
+    color:black; /* Optional: Change to your preferred text color */
+    border: none; /* Optional: Change to your preferred border style */
+    border-radius: 20px; /* Optional: Change to your preferred border radius */
+    cursor: pointer; /* Optional: Change to your preferred cursor style */
+    text-transform: none; /* Prevent button text from being capitalized */
+}
+
+.signin_button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px; /* Optional: Change to your preferred font size */
+    /* Optional: Change to your preferred background color */
+    color:black; /* Optional: Change to your preferred text color */
+    border: none; /* Optional: Change to your preferred border style */
+    border-radius: 20px; /* Optional: Change to your preferred border radius */
+    cursor: pointer; /* Optional: Change to your preferred cursor style */
+    text-transform: none; /* Prevent button text from being capitalized */
+}
+.signup_button{
+    border-radius: 20px;
+}
+/* Style the input fields */
+.signin_container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px; /* Optional: Change to your preferred font size */
+    border: 1px solid #ccc; /* Optional: Change to your preferred border color */
+    border-radius: 5px; /* Optional: Change to your preferred border radius */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .signin_container {
+        width: 90%; /* Adjust the width as needed */
+    }
+
+    .signin_container h1 {
+        font-size: 20px; /* Optional: Adjust font size for smaller screens */
+    }
+
+    .signin_container input {
+        font-size: 14px; /* Optional: Adjust font size for smaller screens */
+    }
+    .signup_button {
+        font-size: 14px; /* Optional: Adjust font size for smaller screens */
+    }
+    .signin_button {
+        font-size: 14px; /* Optional: Adjust font size for smaller screens */
+    }
+}

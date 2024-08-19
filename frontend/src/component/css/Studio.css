@@ -1,0 +1,66 @@
+.studio_container {
+    margin: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font for this section */
+    color: #333; /* Primary text color */
+}
+
+.studio_container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff; /* Heading color */
+    text-align: center;
+}
+
+.studio_features,
+.studio_pricing {
+    margin-bottom: 20px;
+}
+
+.studio_features h3,
+.studio_pricing h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555; /* Subheading color */
+    margin-bottom: 15px;
+}
+
+.studio_features ul,
+.studio_pricing ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.studio_features li,
+.studio_pricing li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444; /* List item text color */
+}
+
+.book-now {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-now:hover {
+    background-color: #0056b3;
+}

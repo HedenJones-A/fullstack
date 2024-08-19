@@ -1,0 +1,37 @@
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-details {
+    text-align: center;
+}
+
+.booking-details h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.booking-details p {
+    font-size: 18px;
+    color: #555;
+}
+
+.qr-code {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.qr-code canvas {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
